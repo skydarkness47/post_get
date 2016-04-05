@@ -1,0 +1,19 @@
+
+
+
+<html>
+<head>
+	<!--//TAG FORM es el tag que nos permite enviar informacion a travez de http, su funcion es transportar texto, desde el nombre de una cvariable o una imagen, para transportar de un lugar a otro informacion es de una pagina a otra. -->
+	<title></title>
+</head>
+<body>
+<form action="Mostrar.php" method="post"><!--Aca adentro vamos a colocar distintos controles que nos van a permitir enviar la informacion// ACTION Envia datos de formulario// Depende del metodo POST O GET pasa los elementos de forma menos segura(get) o mas segura(post
+	REGLAS: el formulario debe tener un NAME)-->
+<input type="text" name="usuario" placeholder="Ingresa el usuario"></input><!--ingreso de datos-->
+<input type="password", name="clave" placeholder="Ingresar la contra"></input>
+<input type="submit" value="Enviar Informacion" name = "Enviar"></input><!--Si no tiene name, no pasa el dato al servidor-->
+
+
+</form>
+</body>
+</html>
